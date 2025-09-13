@@ -1,0 +1,6 @@
+#files to ignore 
+
+venv/
+*.pyc
+__pycache__/
+.vscode/
