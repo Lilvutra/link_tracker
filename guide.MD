@@ -16,7 +16,7 @@ Layers:
 3. Database Layer 
 - Store job links
 - Use SQLite(links.db)
-- Contain a table(links) with cols: id, link, data_saved
+- Contain a table(links) with cols: id, link, name, data_saved(should we restructure it or just keep things simple)
 4. User Interaction Layer 
 - Simple: just print messages in terminal when a new link is saved.
 - Later: could be extended into a CLI menu, a GUI (Tkinter), or even a web app (Flask).

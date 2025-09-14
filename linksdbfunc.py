@@ -47,5 +47,3 @@ def remove_link(url):
 
 
 
-
-
