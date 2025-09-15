@@ -7,8 +7,8 @@ Currently just support <title> tag, h1, h2, h3 headings and meta name
 Python 3.10+
 
 ## Clone this repository 
-$ git clone https://github.com/Lilvutra/link_tracker
-$ cd link_tracker
+'$ git clone https://github.com/Lilvutra/link_tracker'
+'$ cd link_tracker'
 
 ## Install dependencies
 For MacOS, Chromium:
