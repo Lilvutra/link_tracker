@@ -2,19 +2,24 @@
 Detects new urls copied to clipboard, fetched their HTML, extract info
 
 ## Features
-Currently just support <title> tag, h1, h2, h3 headings and <meta name = "title">
+Currently just support <title> tag, h1, h2, h3 headings and meta name
 ## Requirements 
 Python 3.10+
 
+## Clone this repository 
+$ git clone https://github.com/Lilvutra/link_tracker
+$ cd link_tracker
+
+## Install dependencies
 For MacOS, Chromium:
-'''json
-    pip install playright beautifulsoup4 sqlite3 pyperclp
-    playwright install chromium
-'''
+'''bash
+    $ pip install playright beautifulsoup4 sqlite3 pyperclip
+    $ playwright install chromium
+
 ## Run
-'''json
-    python link_listener.py
-'''
+'''bash
+    $ python link_listener.py
+
 
 May links would come your way
 
