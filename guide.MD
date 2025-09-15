@@ -20,3 +20,4 @@ Layers:
 4. User Interaction Layer 
 - Simple: just print messages in terminal when a new link is saved.
 - Later: could be extended into a CLI menu, a GUI (Tkinter), or even a web app (Flask).
+
