@@ -8,7 +8,7 @@ Python 3.10+
 
 ## Clone this repository 
 ```bash
-$ git clone https://github.com/Lilvutra/link_tracker'
+$ git clone https://github.com/Lilvutra/link_tracker
 $ cd link_tracker
 ```
 

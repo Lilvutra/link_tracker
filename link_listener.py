@@ -20,6 +20,7 @@ def main():
             if is_job_page(text):
                 print("Job link detected, adding to database.")
                 title = get_page_title(text)
+                print("extracted title:", title)
                 add_link(text, title)
                 print("added to database")
             else:

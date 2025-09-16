@@ -20,11 +20,14 @@ def get_page_title(url: str) -> str:
         except Exception as e:
             print("Could not fetch title:", e)
             return "Error fetching title" 
+        
         try:
             headlines = soup.find_all(['h1', 'h2', 'h3'])
             for headline in headlines:
+                print(f"headline found: {headline.string.strip()}")
                 if headline.string:
                     tits.append(headline.string.strip())
+                    print(f"tits: {tits}")        
             return "No headline found"
         except Exception as e:
             print("Could not extract headline:", e)
@@ -38,10 +41,13 @@ def get_page_title(url: str) -> str:
         except Exception as e:
             print("Could not extract meta title:", e)
             return "Error extracting meta title"
+        
         finally:
             browser.close()
+            
     # how many tits we have 
     tits = list(set([t for t in tits if t]))
+    print("Titles found:", tits)
     return tits if tits else ["No title found"]
 
 

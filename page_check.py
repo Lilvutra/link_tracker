@@ -1,4 +1,6 @@
+import re 
 from playwright.sync_api import sync_playwright
+
 
 JOB_PATTERNS = [
     "linkedin.com/jobs",
