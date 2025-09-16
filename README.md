@@ -10,6 +10,9 @@ Python 3.10+
 ```bash
 $ git clone https://github.com/Lilvutra/link_tracker
 $ cd link_tracker
+$ python3 -m venv .venv
+$ source .venv/bin/activate
+$ pip install -r 'requirements.txt'
 ```
 
 
